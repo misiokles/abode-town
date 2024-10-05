@@ -1,0 +1,56 @@
+{
+	"abode122errinaya" : 
+	{
+		"class" : "abodebard",
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/fire shield32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/fire shield44.png",
+			"large" : "Abode-heroes/Sorceress/174.pcx",
+			"small" : "Abode-heroes/Sorceress/174s.pcx"
+		},
+
+		"spellbook" :
+		[
+			"visions"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"fireShield" : {
+					"type": "FIRE_SHIELD",
+					"val": 10,
+					"limiters":
+					[
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters" : ["abodePixieOfAbode", true]
+						}
+					]
+				}
+			}
+		}
+	}
+}

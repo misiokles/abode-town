@@ -1,0 +1,52 @@
+{
+	"abode121kilyne" :
+	{
+		"class" : "abodebard",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Spells/MoonProtection32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Spells/MoonProtection44.png",
+			"large" : "Abode-heroes/Sorceress/203.pcx",
+			"small" : "Abode-heroes/Sorceress/203s.pcx"
+		},
+
+		"spellbook" :
+		[
+			"forceField" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+			
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.forceField",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

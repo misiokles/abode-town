@@ -1,0 +1,68 @@
+{
+	"abode112desini" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Spells/PhoenixFriend32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Spells/PhoenixFriend44.png",
+			"large" : "Abode-heroes/Guardian/Ship Guardian/ship guardian58x64.pcx",
+			"small" : "Abode-heroes/Guardian/Ship Guardian/ship guardian48x32.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "abodeFireBirdOfAbode", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				},
+				"defence" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 3
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				},	
+				"MORALE" : {
+					"type" : "MORALE",
+					"valueType" : "INDEPENDENT_MAX",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+

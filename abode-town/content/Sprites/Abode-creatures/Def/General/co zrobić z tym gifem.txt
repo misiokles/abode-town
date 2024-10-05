@@ -1,0 +1,7 @@
+Gif (tak wiem jest nie ruhomy, ale zrobienie
+ czegoœ takiego wykracza³o poza m¹ wiedzê) nale¿y umieœciæ w  folderze
+data\zvs\lib.res
+
+Autor samego defa - Zbigniew
+
+Autor amatorsko zrobionej reszty - Mitabrin

@@ -1,0 +1,44 @@
+{
+	"abode116chani" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/peace32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/peace44.png",
+			"large" : "Abode-heroes/Guardian/5.pcx",
+			"small" : "Abode-heroes/Guardian/5s.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"nonevil" : {
+					"type": "NONEVIL_ALIGNMENT_MIX" 
+				}
+			}
+		}
+	}
+}

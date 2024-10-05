@@ -1,0 +1,40 @@
+{
+	"abode114bridonna" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/skl3212c.bmp",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/skill12c.png",
+			"large" : "Abode-heroes/Guardian/225.pcx",
+			"small" : "Abode-heroes/Guardian/225s.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 20,
+				"min" : 15
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "abodePixieOfAbode"
+		}
+	}
+}

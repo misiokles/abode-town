@@ -1,0 +1,92 @@
+
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "adobeLevel1" : {
+                "name" : "Treehouse",
+                "creatures" : [[ "abodePixieOfAbode" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "AVGPIXIE.def",
+//                        "mask" : ["VVV","VBB","BBA" ]
+                    }
+                }
+            },
+            "adobeLevel2" : {
+                "name" : "Dwarven Dwelling",
+                "creatures" : [[ "abodeDwarfOfAbode" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "AVGDWRF0.def"
+//                        "mask" : [ "VBB", "VBA" ]
+                    }
+                }
+            },
+            "adobeLevel3" : {
+                "name" : "Sharpshooter Post",
+                "creatures" : [[ "abodeElfOfAbode" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "AVGSHRP.def"
+ //                       "mask" : ["VVV","VBB","VBA" ]
+                    }
+                }
+            },
+            "adobeLevel4" : {
+                "name" : "Druids Abode",
+                "creatures" : [[ "abodeDruid" ]],
+                "guards" : [
+                    { "amount" : 15, "type" : "abodeDruid" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "AVGENCH.def"
+//                       "mask" : ["VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "adobeLevel5" : {
+                "name" : "Unicorn Meadow",
+                "creatures" : [[ "abodeUnicornOfAbode" ]],
+                "guards" : [
+                    { "amount" : 12, "type" : "abodeUnicornOfAbode" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "AVGUNIC0.def"
+//                        "mask" : [ "VVV","VBB","VAB" ]
+                    }
+                }
+            },
+            "adobeLevel6" : {
+                "name" : "Firestorm Gathering",
+                "creatures" : [[ "abodeFireBirdOfAbode" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "abodeFireBirdOfAbode" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "AVGFBRD.def"
+//                        "mask" : ["VVV","BBB","BAB" ]
+                    }
+                }
+            }
+//            "adobeLevel7" : {
+//                "name" : "Phantom Zone",
+//                "creatures" : [[ "plwalker" ]],
+//               "guards" : [
+//                    { "amount" : 3, "type" : "plwalker" }
+//                ],
+//                "templates" : {
+//                    "default" : {
+//                        "animation" : "asylum/map/dwellings/AVG189",
+//                        "mask" : ["VVV","VBB","VAB" ]
+//                    }
+//                }
+//            }
+        }       
+    }
+}

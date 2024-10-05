@@ -1,0 +1,189 @@
+{
+	"abode" :
+	{
+		"name" : "Abode",
+		"town" :
+		{
+			"names" :
+			[
+				"Xanadu",
+				"Hangval",
+				"Jalina",
+				"Firios",
+				"Windhaven",
+				"Bathiere",
+				"Spring Falls",
+				"Gem Moor",
+				"Willow",
+				"New Forest",
+				"New Elfwind",
+				"Wenlan",
+				"Vintyl",
+				"Sylina",
+				"Hallin",
+				"Rael"
+			],
+			"buildings" :
+			{
+"building0":				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+"building1":				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+"building2":				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+"building3":				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+				},
+"building4":				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+				},
+"building5":				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city."
+				},
+"building6":				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships."
+				},
+"fort":				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls."
+				},
+"citadel":				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+				},
+"castle":				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+				},
+"building10":				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+				},
+"building11":				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+				},
+"building12":				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+				},
+"capitol":				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day."
+				},
+"building14":				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+				},
+"building15":				{
+					"description" : "The Resourse Pile provides you with an additional +1 crystal each day.",
+					"name" : "Resourse Pile"
+				},
+"building16":				{
+					"description" : "The Blacksmith provides your armies with Ballista.",
+					"name" : "Blacksmith"
+				},
+"building18":				{
+					"description" : "Dwelling increases weekly production of Pixies by 10 per week.",
+					"name" : "Dwelling"
+				},
+"building19":				{
+					"description" : "Dwelling increases weekly production of Sprites by 10 per week.",
+					"name" : "Dwelling"
+
+				},
+
+"building17":				{
+					"description" : "Statue increases luck of any visiting hero for next battle by +1.(not working yet)",
+					"name" : "Statue"
+				},
+"building21":				{
+					"description" : "The Crystal Garden increases the Power skill of any visiting hero by +1.(not working yet)",
+					"name" : "Crystal Garden"
+				},
+"building26":				{
+					"description" : "The Rainbow increases weekly creature generation by 50 percent, adds 5000 gold per day.",
+					"name" : "Rainbow"
+				},
+"building30":				{
+					"description" : "Treehouse allows to recruit Pixies.",
+					"name" : "Treehouse"
+				},
+"building31":				{
+					"description" : "Cottage allows to recruit Dwarves.",
+					"name" : "Cottage"
+				},
+"building32":				{
+					"description" : "Archery Range allows to recruit Elves of Abode.",
+					"name" : "Archery Range"
+				},
+"building33":				{
+					"description" : "Stonehenge allows to recruit Druids.",
+					"name" : "Stonehenge"
+				},
+"building34":				{
+					"description" : "Fenced Meadow allows to recruit Unicorns.",
+					"name" : "Fenced Meadow"
+				},
+"building35":				{
+					"description" : "Red Tower allows to recruit Fire Birds.",
+					"name" : "Red Tower"
+				},
+"building36":				{
+					"description" : "Additional allows to recruit Additional Units.",
+					"name" : "NOT AVAILABLE"
+				},
+"building37":				{
+					"description" : "Upg. Treehouse allows to recruit Sprites.",
+					"name" : "Upg. Treehouse"
+				},
+"building38":				{
+					"description" : "Upg. Cottage allows to recruit Battle Dwarves.",
+					"name" : "Upg. Cottage"
+				},
+"building39":				{
+					"description" : "Upg. Archery Range allows to recruit Elves of Botany.",
+					"name" : "Upg. Archery Range"
+				},
+"building40":				{
+					"description" : "Upg. Stonehenge Post allows to recruit Great Druids.",
+					"name" : "Upg. Stonehenge"
+				},
+"building41":				{
+					"description" : "Upg. Fenced Meadow allows to recruit War Unicorns.",
+					"name" : "Upg. Fenced Meadow"
+				},
+"building42":				{
+					"description" : "Upg. Red Tower allows to recruit Phoenixes.",
+					"name" : "Upg. Red Tower"
+				},
+"building43":				{
+					"description" : "Adv. Red Tower allows to recruit Sacred Phoenixes.",
+					"name" : "Adv. Red Tower"
+				},
+//"building23":				{	
+//					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+//					"name" : "Mage Guild Level 1"
+//				},
+"building46":				{	
+					"description" : "Adv. Archery Range allows to recruit Elves of Old.",
+					"name" : "Adv. Archery Range"
+				},
+"building49":				{
+					"description" : "Adv. Red Tower allows to recruit Sacred Phoenixes.",
+					"name" : "Adv. Red Tower"
+				}
+			}
+		}
+	}
+}

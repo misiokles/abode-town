@@ -1,0 +1,262 @@
+{
+	"abode010additional" :
+	{
+		"texts" :
+		{
+			"name" : "Sevestra",
+			"biography" : "Unknown" ,
+			"specialty" :
+			{
+				"description" : "Bonus of Eagle Eye.",
+				"tooltip" : "",
+				"name" : "Eagle Eye"
+			}
+		}
+	},
+
+	"abode112desini" :
+	{
+		"texts" :
+		{
+			"name" : "Desini",
+			"biography" : "Desini was a granddaughter of a known merchantman, who used to make long distance trips to support various countries - very often in a state of war.It was a dangerous operation however well paid in such uncertain times.Desinis parents died of disease plague, so she stayed with his grandfather aboard his ship.She was 8 years old,when an unfortunate government pirate attack suprised them.The ship has been sunk.She was small so she managed to survive the masacre unseen.She landed on an unhabited island of the near archipelago.While trying to get to the high spot of the island she fell to an unusual nest with huge, red glowing egg.Before she had time to get amazed,she heard a high pitched sound.She looked back and saw an enormous fire bird that looked at her with interest.To her suprise the bird didnt do anything to her.She was allowed to come and go whenever she wanted.After some time the egg hatched.Months have passed,and having no people around, Desini have become attached to the unusual,very inteligent birds and formed a friendship.After 2 years or so,when Desini gave up thought of any person coming here,unsuspectedly a beautiful ship has arrived at the island.It happened to be a sorceress that came to check on natural phoenix habitat of this archipelago.The meetimg was unexpected for both.Desini joined the sorceress so she could travel aboard her ship, which she loved the most and at the same time watch over the birds she found so marvelous       ",
+			"specialty" :
+			{
+				"description" : "phoenix speed & morale bonus",
+				"tooltip" : "",
+				"name" : "Phoenix Friend"
+			}
+		}
+	},
+	
+	"abode113jessika" :
+	{
+		"texts" :
+		{
+			"name" : "Jessika",
+			"biography" : "Unknown.",
+			"specialty" :
+			{
+				"description" : "Bonus of Armorer",
+				"tooltip" : "",
+				"name" : "Armorer"
+			}
+		}
+	},
+
+	"abode114bridonna" :
+	{
+		"texts" :
+		{
+			"name" : "Bridonna",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Bonus of Pathfinding",
+				"tooltip" : "",
+				"name" : "Pathfinding"
+			}
+		}
+	},
+	
+	"abode115qara" :
+	{
+		"texts" :
+		{
+			"name" : "Qara",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "+1 Gem per day",
+				"tooltip" : "",
+				"name" : "+1 Gem"
+			}
+		}
+	},
+	
+	"abode116chani" :
+	{
+		"texts" :
+		{
+			"name" : "Chani",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Keeps positive/neutral morale with any creature alignment",
+				"tooltip" : "",
+				"name" : "Peace Keeper"
+			}
+		}
+	},
+
+	"abode117sunni" :
+	{
+		"texts" :
+		{
+			"name" : "Sunni",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "+3 tiles of sight radius",
+				"tooltip" : "",
+				"name" : "Scouting"
+			}
+		}
+	},
+
+
+	"abode118kastore" : 
+	{
+		"texts" :
+		{
+			"name" : "Kastore",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Bonus of Chain Lightning",
+				"tooltip" : "",
+				"name" : "Chain Lightning"
+			}
+		}
+	},
+
+	"abode119yviene" :
+	{
+		"texts" :
+		{
+			"name" : "Yviene",
+			"biography" : "Unknown", 
+			"specialty" :
+			{
+				"description" : "20% Wind damage bonus",
+				"tooltip" : "",
+				"name" : "Wind Magic"
+			}
+		}
+	},
+
+	"abode120minore" :
+	{
+		"texts" :
+		{
+			"name" : "Minore",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Berserk & Hypnotize Talent",
+				"tooltip" : "",
+				"name" : "Mind Influence"
+			}
+		}
+	},
+
+	"abode121kilyne" :
+	{
+		"texts" :
+		{
+			"name" : "Kilyne",
+			"biography" : "Kilyne has always been a curious mind.By studying the moon,its magnetic power and making various ore experiments,she soon realised how beneficial results it can give.Long years of energy manipulation have helped her to multiply natural magnetic fields.Using it for her own protection was a natural thing to do...  ",
+
+			"specialty" :
+			{
+				"description" : "Ability to use Magnetic Force Field",
+				"tooltip" : "",
+				"name" : "Moon Protection"
+			}
+		}
+	},
+
+	"abode122errinaya" :
+	{
+		"texts" :
+		{
+			"name" : "Errinaya",
+			"biography" : "Unknown.",
+			"specialty" :
+			{
+				"description" : "Fire Shield 10% damage rate for all allied creatures ",
+				"tooltip" : "",
+				"name" : "Fire Shield"
+			}
+		}
+	},
+
+	"abode123leane" :
+	{
+		"texts" :
+		{
+			"name" : "Leane",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "15% Bonus to Sorcery skill per level",
+				"tooltip" : "",
+				"name" : "Sorcery"
+			}
+		}
+	},
+
+	"abode124calene" : 
+	{
+		"texts" :
+		{
+			"name" : "Calene",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Bonus of Intelligence",
+				"tooltip" : "",
+				"name" : "Intelligence"
+			}
+		}
+	},
+
+	"abode125karen" :
+	{
+		"texts" :
+		{
+			"name" : "Karen",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "",
+				"name" : "+350 Gold"
+			}
+		}
+	},
+
+	"abode126resurrecta" :
+	{
+		"texts" :
+		{
+			"name" : "Resurrecta",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Power of Resurrection",
+				"tooltip" : "",
+				"name" : "Resurrection"
+
+	
+			}
+		}
+	},
+
+	"abode127sae" :
+	{
+		"texts" :
+		{
+			"name" : "Sevestra",
+			"biography" : "Unknown",
+			"specialty" :
+			{
+				"description" : "Fire Magic damage 30% bonus",
+				"tooltip" : "",
+				"name" : "Fire Magic"
+
+	
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"abode126resurrecta" :
+	{
+		"class" : "abodebard",
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/Resurrect32.bmp",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/Resurrect44.bmp",
+			"large" : "Abode-heroes/Sorceress/HPL002el.pcx",
+			"small" : "Abode-heroes/Sorceress/HPS002el.pcx"
+		},
+
+		"spellbook" :
+		[
+			"resurrection"	
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"spellDamage" : {
+					"type": "SPECIFIC_SPELL_DAMAGE",
+					"subtype": "spell.resurrection",
+					"val" : 20,
+					"valueType": "INDEPENDENT_MAX"
+				}
+			}
+		}
+	}
+}

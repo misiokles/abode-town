@@ -1,0 +1,41 @@
+{
+	"abode010additional" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+		"special":true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/skl3204a.bmp",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/skill04a.bmp",
+			"large" : "Abode-heroes/Guardian/Ship Guardian/ship guardian58x64.pcx",
+			"small" : "Abode-heroes/Guardian/Ship Guardian/ship guardian48x32.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 25,
+				"min" : 15
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "abodePixieOfAbode"
+		}
+	}
+}

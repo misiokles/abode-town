@@ -1,0 +1,62 @@
+{
+	"abodeBattleDwarfOfAbode":
+	{
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "abode",
+		"aiValue" : 209,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 7,
+		"speed" : 5,
+		"fightValue" : 209,
+		"graphics" :
+		{
+			"animation" : "CBDWAR.def",
+			"map" : "Abode-creatures/Map Standing/Battle_Dwarf_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Battle_Dwarf_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Battle_Dwarf_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.98,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Dwarf/DWRFATTK.wav",
+			"defend" : "Abode-creatures/Dwarf/DWRFDFND.wav",
+			"killed" : "Abode-creatures/Dwarf/DWRFKILL.wav",
+			"move" : "Abode-creatures/dwarf/DWRFMOVE.wav",
+			"wince" : "Abode-creatures/Dwarf/DWRFWNCE.wav"
+		},
+		
+"abilities" :
+		{
+"ability1":			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			}
+			
+		}
+
+	}
+}

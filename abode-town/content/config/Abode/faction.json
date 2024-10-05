@@ -1,0 +1,111 @@
+{
+	"abode" :
+	{
+		"name" : "Abode",
+		"creatureBackground" :
+		{
+			"120px" : "Abode/Green120.bmp",
+			"130px" : "Abode/Green130.bmp"
+		},
+		"nativeTerrain": "grass",
+		"alignment" : "good",
+		"boat" : "boatCastle",
+		"town" :
+		{
+			"musicTheme" : "music/Abode/theme",
+
+			"townBackground": "Abode/town-screen/background",
+			"guildWindow": "Abode/town-screen/mage-guild",
+			"hallBackground": "Abode/THBACK/Forest6.bmp",
+			"hallSlots":
+			[
+				[ [ "building10", "building11", "building12", "capitol" ], [ "fort", "citadel", "castle" ], [ "building5" ], [ "building16" ] ],
+				[ [ "building14", "building15" ], [ "building0", "building1", "building2", "building3", "building4" ], [ "building6" ] ],
+				[ [ "building21" ], [ "building17" ], [ "building18", "building19" ] ],
+				[ [ "building30", "building37" ], [ "building31", "building38" ], [ "building32", "building39", "building46" ] ],
+				[ [ "building33", "building40" ], [ "building34", "building41" ], [ "building35", "building42", "building49" ] ]
+			],
+			"creatures" :
+			[
+
+				[ "abodePixieOfAbode", "abodeSpriteOfAbode" ],
+				[ "abodeDwarfOfAbode", "abodeBattleDwarfOfAbode" ],
+				[ "abodeElfOfAbode", "abodeElfOfBotany", "abodeElfOfOld" ],
+				[ "abodeDruid", "abodeGreatDruid" ],
+				[ "abodeUnicornOfAbode", "abodeWarUnicornOfAbode" ],
+				[ "abodeFireBirdOfAbode", "abodePhoenixOfAbode", "abodeSacredPhoenix" ],
+				[ "abodeSacredPhoenix" ]
+			],
+			"horde" : [ 0 , -1 ],
+			"mageGuild" : 5,
+			"moatAbility" : "castleMoat",
+			"primaryResource" : "crystal",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "Abode/town_hall_2nd_upgrade.def",
+			"icons" :
+			{
+				"village" : {
+	"normal" : {
+		"small" : "Abode/icons/hall-small.bmp",
+		"large" : "Abode/icons/hall-big.bmp"
+	},
+	"built" : {
+		"small" : "Abode/icons/hall-builded-small.bmp",
+		"large" : "Abode/icons/hall-builded-big.bmp"
+	}
+},
+"fort" : {
+	"normal" : {
+		"small" : "Abode/icons/fort-small.bmp",
+		"large" : "Abode/icons/fort-big.bmp"
+	},
+	"built" : {
+		"small" : "Abode/icons/fort-builded-small.bmp",
+		"large" : "Abode/icons/fort-builded-big.bmp"
+	}
+}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "avcramz0" },
+					"castle" : { "animation" : "avcramx0" },
+					"citadel" : { "animation" : "avcramx0" },
+					"fort" : { "animation" : "avcramx0" },
+					"village" : { "animation" : "avcramp0" }
+				}
+			},		
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"abodeguardian"      : 6,
+				"abodebard"      : 6
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"abode113jessika" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/wshield32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/wshield44.png",
+			"large" : "Abode-heroes/Guardian/119.pcx",
+			"small" : "Abode-heroes/Guardian/119s.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

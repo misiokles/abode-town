@@ -1,0 +1,52 @@
+{
+	"abode125karen" :
+	{
+		"class" : "abodebard",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/gold32.png",
+			"specialtyLarge" : "Abode-heroes/skills/Sec_skill44/gold44.png",
+			"large" : "Abode-heroes/Sorceress/115.pcx",
+			"small" : "Abode-heroes/Sorceress/115s.pcx"
+		},
+
+		"spellbook" :
+		[
+			"viewEarth"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

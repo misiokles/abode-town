@@ -1,0 +1,62 @@
+{
+	"abodeSpriteOfAbode":
+	{
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "abode",
+		"aiValue" : 95,
+		"attack" : 2,
+		"cost" :
+		{
+			"gold" : 30
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 95,
+		"graphics" :
+		{
+			"animation" : "Abode-creatures/Def/Pixie2/CSprite.def",
+			"map" : "Abode-creatures/Map Standing/AbodeSpriteMap.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/AbodeSprite_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/AbodeSprite.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+        },
+
+		"growth" : 20,
+		"horde" : 10,
+		"hitPoints" : 3,
+		"level" : 1,
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Sprite/SPRTATTK.wav",
+			"defend" : "Abode-creatures/Sprite/SPRTDFND.wav",
+			"killed" : "Abode-creatures/Sprite/SPRTKILL.wav",
+			"move" : "Abode-creatures/Sprite/SPRTMOVE.wav",
+			"wince" : "Abode-creatures/Sprite/SPRTWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+	"ability1":		{
+				"type" : "FLYING"
+			},
+	"ability2":		{
+				"type": "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

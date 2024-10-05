@@ -1,0 +1,84 @@
+{
+	"abodeDruid":
+	{
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "abode",
+		"aiValue" : 485,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 10
+		},
+		"defense" : 7,
+		"fightValue" : 485,
+		"graphics" :
+		{	
+			"animation" : "CMONKK.def",
+			"map" : "Abode-creatures/Map Standing/Monk_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Monk_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Monk_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+	"projectile" : 			"Abode-creatures/Projectiles/PMAGEX.DEF",
+	"attackClimaxFrame" : 8,
+						"offset" :
+				{
+"upperX" : 38,
+								"upperY" : -95,
+	"middleX" : 61,
+		"middleY" : -49,
+							"lowerX" : 31,
+				"lowerY" : 11		
+							},
+	"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+					}
+		},
+
+
+		"growth" : 3,
+		"hitPoints" : 30,
+		"horde" : 6,
+              	"level" : 4,
+		"shots" : 12,
+		"upgrades":
+		[
+			"abodeGreatDruid"
+		],
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Monk/MONKATTK.wav",
+			"defend" : "Abode-creatures/Monk/MONKDFND.wav",
+			"killed" : "Abode-creatures/Monk/MONKKILL.wav",
+			"move" : "Abode-creatures/Monk/MONKMOVE.wav",
+			"wince" : "Abode-creatures/Monk/MONKWNCE.wav",
+                     	"shoot" : "Abode-creatures/monk/MONKSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+		"ability1":	{
+				"type" : "SHOOTER"
+			}
+			
+                     
+
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"abode127sae" :
+	{
+		"class" : "abodebard",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/Fire Magic32.png",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/Fire Magic44.png",
+			"small" : "Abode-heroes/Guardian/Sae/Phoenixgirl 48x32.png",
+			"large" : "Abode-heroes/Guardian/Sae/Phoenixgirl 58x64.png",
+		},
+
+		"spellbook" :
+		[
+			"fireball"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"firePremy" :
+					{
+						"type" : "SPELL_DAMAGE",
+						"subtype" : "spellSchool.fire",
+						"val" : 30,
+						"valueType" : "BASE_NUMBER"
+					}
+
+				}
+			}
+		}
+	}
+

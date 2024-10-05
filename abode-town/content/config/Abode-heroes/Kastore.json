@@ -1,0 +1,42 @@
+{
+	"abode118kastore" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "Abode-heroes/kastore/spec-small.png",
+			"specialtyLarge" : "Abode-heroes/kastore/spec-large.png",
+			"large" : "Abode-heroes/Guardian/29.pcx",
+			"small" : "Abode-heroes/Guardian/29s.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 20,
+				"min" : 15
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "abodePixieOfAbode"
+		}
+	}
+}
+

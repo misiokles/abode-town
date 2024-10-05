@@ -1,0 +1,404 @@
+{
+	"abode" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+"building0":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+"building1":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "building0"
+				},
+"building2":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "building1"
+				},
+"building3":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "building2"
+				},
+"building4":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "building3"
+				},
+"building5":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+"building6":				{
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				//	"upgrades" : "building23"
+				},
+"fort":				{
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+"citadel":				{
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+"castle":				{
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+"building10":				{
+					"id" : 10,
+					"mode" : "auto"
+				},
+"building11":				{
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "building5" ],
+					"upgrades" : "building10"
+				},
+"building12":				{
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf",[ "building0" ],[ "building14" ],[ "building16" ]],
+					"id" : 12,
+					"upgrades" : "building11"
+				},
+"capitol":				{
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "building12"
+				},
+"building14":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+"building15":				{
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "building14" ],
+					"id" : 15
+				},
+"building16":				{
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				
+"building18":				{
+					"cost" : {
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "building30"
+				},
+"building19":				{
+					"cost" : {
+						"gold" : 1000
+					},
+					"id" : 19,
+					"upgrades" : "building37",
+					"requires" : [ "building18" ],
+					"mode" : "auto"
+				},
+"building20":				{
+					"id" : 20
+				},
+"building17":				{
+					"cost" : {
+						"gold" : 1000
+					},
+					"requires" : [ "building21" ],
+					"id" : 17
+				},
+"building21":				{
+					"cost" : {
+						"gems" : 5,
+						"gold" : 1000
+					},
+					"requires" : [ "building15" ],
+					"id" : 21
+				},
+"building26":				{
+					"id" : 26,
+					"mode" : "grail"
+				},
+"building30":				{
+// 1 poziom
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+"building31":				{
+//2 poziom
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"requires" : [ "allOf",[ "building5" ], [ "building30" ]],
+					"id" : 31
+				},
+"building32":				{
+//3 poziom
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 10
+					},
+					"requires" : [ "fort" ],
+					"id" : 32
+				},
+"building33":				{
+//4 poziom
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 2,
+						"ore" : 10,
+						"gems" : 2,
+						"mercury" : 2,
+						"sulfur" : 2,
+						"crystal" :2
+					},
+					"requires" : [  "allOf",[ "building0" ], [ "building32" ]],
+					"id" : 33
+				},
+"building34":				{
+//5 poziom
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 10,
+						"ore" : 5,
+						"gems" : 10,
+					},
+					"requires" : [  "allOf",[ "building32" ],[ "building33" ]],
+					"id" : 34
+				},
+"building35":				{
+//6 poziom
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 10,
+						"wood" : 10,
+						"mercury" : 10
+					},
+					"requires" : [  "allOf",[ "building31" ], [ "building34" ]],
+					"id" : 35
+				},
+"building36":				{
+//7 poziom
+					"cost" : {
+						"gold" : 20000,
+						"wood" : 10,
+						"ore" : 10,
+						"crystal" : 10
+					},
+					"requires" : [ "building35" ],
+					"id" : 36
+				},
+"building37":				{
+//ul 1 poziom
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 37,
+					"upgrades" : "building30"
+				},
+"building38":				{
+//ul 2 poziom
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5 
+					},
+					"id" : 38,
+					"upgrades" : "building31"
+				},
+"building39":				{
+//ul 3 poziom
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 10,
+						"crystal" : 2
+					},
+					"id" : 39,
+					"upgrades" : "building32"
+				},
+"building40":				{
+//ul 4 poziom
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 10,
+						"crystal" : 2,
+						"gems" : 2,
+						"mercury" : 2,
+						"sulfur" : 2
+					},
+					"id" : 40,
+					"requires" : [ "building37" ],
+					"upgrades" : "building33"
+				},
+"building41":				{
+//ul 5 poziom
+					"cost" : {
+						"sulfur" : 5,
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 3000,
+						"gems" : 5
+					},
+					"id" : 41,
+					//"requires" : [ "citadel" ],
+					"upgrades" : "building34"
+				},
+"building42":				{
+//ul 6 poziom
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 5,
+						"mercury" : 5,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"id" : 42,
+					"requires" : [ "building32" ],
+					"upgrades" : "building35"
+				},
+"building43":				{
+//ul 7 poziom
+					"cost" : {
+						"ore" : 5,
+						"gold" : 20000,
+						"wood" : 5,
+						"mercury" : 20
+					},
+					"id" : 43,
+					"requires" : [  "allOf",[ "building35" ], [ "building0" ]],
+					"upgrades" : "building36"
+				},
+
+"building46":				{
+//ul2 3 poziom
+					"cost" : {
+						"gold" : 10000,
+						"gems" : 2,
+						"crystal" : 2,
+						"mercury" : 2,
+						"sulfur" : 2
+					},
+					"id" : 46,
+					"requires" : [  "allOf", [ "building2"] , [ "building42" ]],
+					"upgrades" : "building39"
+				},
+"building49":				{
+//ul2 6 poziom
+					"cost" : {
+						"gold" : 20000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 10,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"id" : 49,
+					"requires" : [ "building2" ],
+					"upgrades" : "building42"
+				}
+				
+			}
+		}
+	}
+}
+

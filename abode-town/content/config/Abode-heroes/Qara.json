@@ -1,0 +1,47 @@
+{
+	"abode115qara" :
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "Abode-heroes/niclas/spec-small.png",
+			"specialtyLarge" : "Abode-heroes/niclas/spec-large.png",
+			"large" : "Abode-heroes/Guardian/146.pcx",
+			"small" : "Abode-heroes/Guardian/146s.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

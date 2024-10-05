@@ -1,0 +1,86 @@
+{
+	"name" : "Abode town",
+	"version" : "1.27",
+	"author" : "New World Computing, acidchalk, zeryss. Fixes: Macron1, avatar",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=39178",
+	"modType" : "Town",
+	"description" : "New Heroes 2 Sorceress Town. Special thanks for Macron1 for help with 2nd level upgrades and horde building coding. Have fun with the mod.",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},
+	"changelog" :
+	{
+		"1.27"  : [ "Update to vcmi-1.5 format" ]
+	},	
+
+	"factions" :
+	[
+		"config/Abode/buildings.json",
+		"config/Abode/faction.json",
+		"config/Abode/siege.json",
+		"config/Abode/spells.json",
+		"config/Abode/structures.json",
+		"config/Abode/puzzle.json",
+		"config/Abode/texts.json"
+	],
+	"heroClasses" :
+	[
+		"config/Abode-heroes/Guardian.json",
+		"config/Abode-heroes/Sorceress.json",
+		"config/Abode-heroes/texts-class3.json"
+	],
+
+	"heroes" :
+	[	
+		"config/Abode-heroes/additional.json",
+		"config/Abode-heroes/Desini.json",
+		"config/Abode-heroes/Jessika.json",
+		"config/Abode-heroes/Bridonna.json",
+		"config/Abode-heroes/Qara.json",
+		"config/Abode-heroes/Chani.json",
+		"config/Abode-heroes/Sunni.json",
+		"config/Abode-heroes/Kastore.json",
+		"config/Abode-heroes/Yviene.json",
+		"config/Abode-heroes/Minore.json",
+		"config/Abode-heroes/Leane.json",
+		"config/Abode-heroes/Kilyne.json",
+		"config/Abode-heroes/Errinaya.json",
+		"config/Abode-heroes/Calene.json",
+		"config/Abode-heroes/Karen.json",
+		"config/Abode-heroes/Sae.json",
+		"config/Abode-heroes/Resurrecta.json",
+		"config/Abode-heroes/texts-info3.json"
+	],
+	"creatures" :
+	[
+		"config/Abode-creatures/Pixie.json",
+		"config/Abode-creatures/Sprite.json",
+
+		"config/Abode-creatures/Dwarf.json",
+		"config/Abode-creatures/BattleDwarf.json",
+
+		"config/Abode-creatures/ElfsOfAbode.json",
+		"config/Abode-creatures/ElfsOfBotany.json",
+		
+		"config/Abode-creatures/Druid.json",
+		"config/Abode-creatures/GreatDruid.json",
+
+		"config/Abode-creatures/Unicorn.json",
+		"config/Abode-creatures/WarUnicorn.json",
+
+		"config/Abode-creatures/FireBird.json",
+		"config/Abode-creatures/Phoenix.json",
+
+		"config/Abode-creatures/SacredPhoenix.json",
+
+		"config/Abode-creatures/ElfsOfOld.json",
+		"config/Abode-creatures/abodeCommander.json",
+		
+		"config/Abode-creatures/creature-names2.json"
+	],
+	"objects":
+    [
+		"config/abode/dwellings.json"
+    ]
+}

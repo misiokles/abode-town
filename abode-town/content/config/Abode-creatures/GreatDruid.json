@@ -1,0 +1,81 @@
+{
+	"abodeGreatDruid":
+	{
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "abode",
+		"aiValue" : 750,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 10
+		},
+		"defense" : 10,
+		"fightValue" : 750,
+		"graphics" :
+		{	
+			"animation" : "Abode-creatures/Def/GreatDruid/GreatDruid.def",
+			"map" : "Abode-creatures/Map Standing/Enchanter_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Enchanter_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Enchanter_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+	"projectile" : 			"Abode-creatures/Projectiles/PMAGEX.DEF",
+	"attackClimaxFrame" : 6,
+						"offset" :
+				{
+"upperX" : 38,
+								"upperY" : -95,
+	"middleX" : 61,
+		"middleY" : -49,
+							"lowerX" : 31,
+				"lowerY" : 11		
+							},
+	"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+					}
+		},
+
+
+		"growth" : 3,
+		"hitPoints" : 30,
+		"horde" : 6,
+              	"level" : 4,
+		"shots" : 24,
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Enchanter/ENCHATTK.wav",
+			"defend" : "Abode-creatures/Enchanter/ENCHDFND.wav",
+			"killed" : "Abode-creatures/Enchanter/ENCHKILL.wav",
+			"move" : "Abode-creatures/Enchanter/ENCHMOVE.wav",
+			"wince" : "Abode-creatures/Enchanter/ENCHWNCE.wav",
+                     	"shoot" : "Abode-creatures/Enchanter/ENCHSHOT.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"ability1":	{
+				"type" : "SHOOTER"
+			},
+		"ability2":	{	"type" : "NO_MELEE_PENALTY"
+			}
+                     
+
+		}}
+	}
+

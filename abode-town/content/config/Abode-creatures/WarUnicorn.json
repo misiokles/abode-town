@@ -1,0 +1,73 @@
+{
+	"abodeWarUnicornOfAbode":
+	{
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "abode",
+		"aiValue" : 2030,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 950
+		},
+		"damage" :
+		{
+			"max" : 22,
+			"min" : 18
+		},
+		"defense" : 14,
+		"speed" : 9,
+		"fightValue" : 2030,
+		"graphics" :
+		{
+			"animation" : "Abode-creatures/Def/WarUnicorn/CWUNIC.def",
+			"map" : "Abode-creatures/Map Standing/War_Unicorn_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/War_Unicorn_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/War_Unicorn_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 110,
+		"level" : 5,
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Unicorn/UNICATTK.wav",
+			"defend" : "Abode-creatures/Unicorn/UNICDFND.wav",
+			"killed" : "Abode-creatures/Unicorn/UNICKILL.wav",
+			"move" : "Abode-creatures/Unicorn/UNICMOVE.wav",
+			"wince" : "Abode-creatures/Unicorn/UNICWNCE.wav"
+		},
+		
+"abilities" :
+		{
+		"ability1":	{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			},
+		"ability2":	{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.blind", 
+				"val" : 5
+			},
+		"ability3":	{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind", 
+				"val" : 20,
+				"addInfo" : [1,1]
+			}
+			
+		}
+
+	}
+}

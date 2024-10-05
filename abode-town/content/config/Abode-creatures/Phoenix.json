@@ -1,0 +1,76 @@
+{
+	"abodePhoenixOfAbode":
+	{
+		"advMapAmount" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"faction" : "abode",
+		"aiValue" : 6721,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 3000,
+			"mercury" : 1
+       		},
+		"damage" :
+		{
+			"max" : 40,
+			"min" : 30
+		},
+		"defense" : 18,
+		"fightValue" : 6721,
+		"graphics" :
+		{
+			"animation" : "Abode-creatures/Def/Moj fenix/My Phoenix0.def",
+			"map" : "Abode-creatures/Map Standing/Phoenix_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Phoenix_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Phoenix_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 6,
+		"upgrades" :
+		[
+			"abodeSacredPhoenix"
+		],
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Phoenix/PHOEATTK.wav",
+			"defend" : "Abode-creatures/Phoenix/PHOEDFND.wav",
+			"killed" : "Abode-creatures/Phoenix/PHOEKILL.wav",
+			"move" : "Abode-creatures/Phoenix/PHOEMOVE.wav",
+			"wince" : "Abode-creatures/Phoenix/PHOEWNCE.wav"
+		},
+		"speed" : 21,
+		"abilities" :
+		{
+		"ability1":	{
+				"type" : "FLYING"
+			},
+		"ability2":	{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+		"ability3":	{
+				"type" : "REBIRTH",
+				"val" : 20,
+				"subtype" : "rebirthRegular"
+			},
+		"ability4":	{
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",	
+				"subtype" : "spellSchool.fire"
+			}
+				
+			
+		}
+	}
+}

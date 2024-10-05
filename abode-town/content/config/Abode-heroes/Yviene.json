@@ -1,0 +1,66 @@
+{
+	"abode119yviene" :
+	{
+		"class" : "abodebard",
+		"female" : true,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/air32.bmp",
+			"specialtyLarge" : "Abode-heroes/Skills/Sec_skill44/air44.bmp",
+			"large" : "Abode-heroes/Sorceress/179.pcx",
+			"small" : "Abode-heroes/Sorceress/179s.pcx"
+		},
+
+		"spellbook" :
+		[
+			"dispel" ,
+			"magicArrow"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"lightningBolt" :
+					{
+						"type": "SPECIFIC_SPELL_DAMAGE", 
+						"subtype": "spell.lightningBolt",
+						"val": 20
+						
+					},
+				"chainLightning" :
+					{
+						"type": "SPECIFIC_SPELL_DAMAGE",
+						"subtype": "spell.chainLightning",
+						"addInfo": 20
+						
+					},
+				"magicArrow" :
+					{
+						"type": "SPECIFIC_SPELL_DAMAGE",
+						"subtype": "spell.magicArrow",
+						"val": 20
+						
+					}	
+				}
+		}
+	}
+}

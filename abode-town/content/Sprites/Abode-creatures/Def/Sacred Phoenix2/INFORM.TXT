@@ -1,0 +1,6 @@
+[GeneralName]
+Феникс
+
+[WhatAboutVrotAbout]
+WoG mode by Acid Dragon Дух Погребального костра (Установка)
+

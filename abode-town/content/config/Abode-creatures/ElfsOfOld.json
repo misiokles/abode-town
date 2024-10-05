@@ -1,0 +1,102 @@
+{
+	"abodeElfOfOld":
+	{
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 10
+		},
+		"faction" : "abode",
+		"aiValue" : 500,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 650
+		},
+		"damage" :
+		{
+			"max" : 8,
+			"min" : 6
+		},
+		"defense" : 7,
+		"fightValue" : 500,
+		"graphics" :
+		{
+			"animation" : "Abode-creatures/Def/ElfesOfOld/ElfesOfOld.def",
+			"map" : "Abode-creatures/Map Standing/Ice_Sharpshooter_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Ice_Sharpshooter_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Ice_Sharpshooter_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.02,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+	"projectile" : 			"Abode-creatures/Projectiles/PELFX.DEF",
+	"attackClimaxFrame" : 11,
+						"offset" :
+				{
+"upperX" : 32,
+								"upperY" : -77,
+	"middleX" : 40,
+		"middleY" : -61,
+							"lowerX" : 18,
+				"lowerY" : -55		
+							},
+	"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+					}
+		},
+
+
+		"growth" : 7,
+		"hitPoints" : 20,
+		"horde" : 6,
+              	"level" : 3,
+		"shots" : 32,
+		
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Elf/WELFATTK.wav",
+			"defend" : "Abode-creatures/Elf/WELFDFND.wav",
+			"killed" : "Abode-creatures/Elf/WELFKILL.wav",
+			"move" : "Abode-creatures/Elf/WELFMOVE.wav",
+			"wince" : "Abode-creatures/Elf/WELFWNCE.wav",
+                     	"shoot" : "Abode-creatures/Elf/WELFSHOT.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"ability1":	{
+				"type" : "SHOOTER"
+			},
+		"ability2":	{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange":"ONLY_DISTANCE_FIGHT"
+			},
+		"ability3":	{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+		"ability4":	{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.poison", 
+				"val" : 5
+			},
+		"ability5":	{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison", 
+				"val" : 5,
+				"addInfo" : [1, 1]
+			},
+                  "ability6":   	{
+				"type" : "ACID_BREATH",
+				"val" : 1,
+				"addInfo" : 2
+			}
+
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"abodeElfOfBotany":
+	{
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "abode",
+		"aiValue" : 400,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 400,
+		"graphics" :
+		{
+			"animation" : "Abode-creatures/Def/ElfesOfBotany/ElfesOfBotany.def",
+			"map" : "Abode-creatures/Map Standing/Sharpshooter_Map.def",
+			"iconSmall" : "Abode-creatures/Small_Icons_Sorceress/Sharpshooter_Small.bmp",
+			"iconLarge" : "Abode-creatures/Big_Icons_Sorceress/Sharpshooter_Big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.02,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+	"projectile" : 			"Abode-creatures/Projectiles/PELFX.DEF",
+	"attackClimaxFrame" : 11,
+						"offset" :
+				{
+"upperX" : 32,
+								"upperY" : -77,
+	"middleX" : 40,
+		"middleY" : -61,
+							"lowerX" : 18,
+				"lowerY" : -55		
+							},
+	"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+					}
+		},
+
+
+		"growth" : 7,
+		"hitPoints" : 20,
+		"horde" : 6,
+              	"level" : 3,
+		"shots" : 24,
+		"upgrades":
+		[
+			"abodeElfOfOld"
+		],
+		"sound" :
+		{
+			"attack" : "Abode-creatures/Elf/WELFATTK.wav",
+			"defend" : "Abode-creatures/Elf/WELFDFND.wav",
+			"killed" : "Abode-creatures/Elf/WELFKILL.wav",
+			"move" : "Abode-creatures/Elf/WELFMOVE.wav",
+			"wince" : "Abode-creatures/Elf/WELFWNCE.wav",
+                     	"shoot" : "Abode-creatures/Elf/WELFSHOT.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"ability1":	{
+				"type" : "SHOOTER"
+			},
+		"ability2":	{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange":"ONLY_DISTANCE_FIGHT"
+			},
+		"ability3":	{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.poison", 
+				"val" : 25,
+			},
+		"ability4":	{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison", 
+				"val" : 10,
+				"addInfo" : [1, 1]
+			}
+		}
+	}
+}

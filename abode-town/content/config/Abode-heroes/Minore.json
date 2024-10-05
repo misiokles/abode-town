@@ -1,0 +1,48 @@
+{
+	"abode120minore" :
+	{
+		"class" : "abodebard",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/Skills/Skill32/Mind Influence32.png",
+			"specialtyLarge" : "Abode-heroes/skills/Sec_skill44/Mind Influence44.png",
+			"large" : "Abode-heroes/Sorceress/178.pcx",
+			"small" : "Abode-heroes/Sorceress/178s.pcx"
+		},
+
+		"spellbook" :
+		[
+			"berserk" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+			
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"berserk" : {
+						"type": "SPECIAL_PECULIAR_ENCHANT",
+						"subtype": "spell.berserk",
+						"addInfo": 1
+					}
+				}
+			}
+		}
+}

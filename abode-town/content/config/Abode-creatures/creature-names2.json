@@ -1,0 +1,119 @@
+{
+	"abodePixieOfAbode":
+	{
+		"name" :
+		{
+			"plural" : "Pixies",
+			"singular" : "Pixie"
+		}
+	},
+	"abodeSpriteOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Sprites",
+			"singular" : "Sprite"
+		}
+	},
+
+	"abodeDwarfOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Dwarves",
+			"singular" : "Dwarf"
+		}
+	},
+	"abodeBattleDwarfOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Battle Dwarves",
+			"singular" : "Battle Dwarf"
+		}
+	},
+
+	"abodeElfOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Elves of Abode",
+			"singular" : "Elf of Abode"
+		}
+	},
+	"abodeElfOfBotany" :
+	{
+		"name" :
+		{
+			"plural" : "Elves of Botany",
+			"singular" : "Elf of Botany"
+		}
+	},
+	"abodeDruid" :
+	{
+		"name" :
+		{
+			"plural" : "Druids",
+			"singular" : "Druid"
+		}
+	},
+	"abodeGreatDruid" :
+	{
+		"name" :
+		{
+			"plural" : "Great Druids",
+			"singular" : "Great Druid"
+		}
+	},
+
+	"abodeUnicornOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Unicorns",
+			"singular" : "Unicorn"
+		}
+	},
+	"abodeWarUnicornOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "War Unicorns",
+			"singular" : "War Unicorn"
+		}
+	},
+
+	"abodeFireBirdOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Fire Birds",
+			"singular" : "Fire Bird"
+		}
+	},
+	"abodePhoenixOfAbode" :
+	{
+		"name" :
+		{
+			"plural" : "Phoenixes",
+			"singular" : "Phoenix"
+		}
+	},
+
+	"abodeSacredPhoenix" :
+	{
+		"name" :
+		{
+			"plural" : "Sacred Phoenixes",
+			"singular" : "Sacred Phoenix"
+		}
+	},
+	"abodeElfOfOld" :
+	{
+		"name" :
+		{
+			"plural" : "Elves of Old",
+			"singular" : "Elf of Old"
+		}
+	}
+}

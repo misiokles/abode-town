@@ -1,0 +1,51 @@
+{
+	"abode117sunni" : 
+	{
+		"class" : "abodeguardian",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "Abode-heroes/sunni/spec-small.png",
+			"specialtyLarge" : "Abode-heroes/sunni/spec-large.png",
+			"large" : "Abode-heroes/Guardian/HPL023Rn.pcx",
+			"small" : "Abode-heroes/Guardian/HPS023Rn.pcx"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"scouting" :
+					{
+						"type": "SIGHT_RADIUS",
+						"val": 3
+					}
+			}
+		}
+	}
+}
