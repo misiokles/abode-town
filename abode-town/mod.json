@@ -1,10 +1,11 @@
 {
 	"name" : "Abode town",
-	"version" : "1.26",
-	"author" : "New World Computing, acidchalk, zeryss. Fixes: Macron1, avatar",
+	"version" : "1.28",
+	"author" : "New World Computing, Silaneo. Fixes: Macron1, avatar",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=39178",
 	"modType" : "Town",
 	"description" : "New Heroes 2 Sorceress Town. Special thanks for Macron1 for help with 2nd level upgrades and horde building coding. Have fun with the mod.",
+	"language": "chinese",
 	"compatibility" :
 	{
 		"min" : "1.6.0"
@@ -13,8 +14,11 @@
 	{
 		"1.27"  : [ "Update to vcmi-1.5 format" ],
 		"1.28"  : [ "Update to vcmi-1.6 format" ]
-	},	
-
+	},		
+	"chinese": {
+		"name": "家园",
+		"description": "新的英雄无敌2女巫族。特别感谢Macron1编写了二次升级和很多建筑的实现代码。祝游玩愉快！"
+	},
 	"factions" :
 	[
 		"config/Abode/buildings.json",
@@ -51,7 +55,9 @@
 		"config/Abode-heroes/Karen.json",
 		"config/Abode-heroes/Sae.json",
 		"config/Abode-heroes/Resurrecta.json",
-		"config/Abode-heroes/texts-info3.json"
+		"config/Abode-heroes/texts-info3.json",
+		"config/Abode-heroes/HeroNeutralConversion.json",
+		"config/Abode-heroes/campaignHeroes.json"
 	],
 	"creatures" :
 	[
@@ -83,5 +89,9 @@
 	"objects":
     [
 		"config/abode/dwellings.json"
+    ],
+	"spells":
+    [
+		"config/Abode-spell/moat.json"
     ]
 }
