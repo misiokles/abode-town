@@ -19,6 +19,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 		
@@ -34,9 +44,10 @@
 			}
 		],
 		
-		"specialty" : {
+		"specialty": //estate bonus
+		{
 			"bonuses" : {
-				"gold" : {
+				"gems" : {
 					"subtype" : "resource.gems",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1

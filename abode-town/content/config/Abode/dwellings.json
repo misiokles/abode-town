@@ -3,7 +3,7 @@
     "core:creatureGeneratorCommon" : {
         "types" : {
             "adobeLevel1" : {
-                "name" : "Treehouse",
+                "name" : "树屋",
                 "creatures" : [[ "abodePixieOfAbode" ]],
 
                 "templates" : {
@@ -14,7 +14,7 @@
                 }
             },
             "adobeLevel2" : {
-                "name" : "Dwarven Dwelling",
+                "name" : "农舍",
                 "creatures" : [[ "abodeDwarfOfAbode" ]],
 
                 "templates" : {
@@ -25,7 +25,7 @@
                 }
             },
             "adobeLevel3" : {
-                "name" : "Sharpshooter Post",
+                "name" : "箭术靶场",
                 "creatures" : [[ "abodeElfOfAbode" ]],
 
                 "templates" : {
@@ -36,7 +36,7 @@
                 }
             },
             "adobeLevel4" : {
-                "name" : "Druids Abode",
+                "name" : "石柱群",
                 "creatures" : [[ "abodeDruid" ]],
                 "guards" : [
                     { "amount" : 15, "type" : "abodeDruid" }
@@ -49,7 +49,7 @@
                 }
             },
             "adobeLevel5" : {
-                "name" : "Unicorn Meadow",
+                "name" : "篱围草地",
                 "creatures" : [[ "abodeUnicornOfAbode" ]],
                 "guards" : [
                     { "amount" : 12, "type" : "abodeUnicornOfAbode" }
@@ -62,7 +62,7 @@
                 }
             },
             "adobeLevel6" : {
-                "name" : "Firestorm Gathering",
+                "name" : "火焰塔",
                 "creatures" : [[ "abodeFireBirdOfAbode" ]],
                 "guards" : [
                     { "amount" : 6, "type" : "abodeFireBirdOfAbode" }

@@ -1,29 +1,29 @@
 {
 	"abode" :
 	{
-		"name" : "Abode",
+		"name" : "家园",
 		"creatureBackground" :
 		{
 			"120px" : "Abode/Green120.bmp",
 			"130px" : "Abode/Green130.bmp"
 		},
+		"boat" : "boatCastle",
 		"nativeTerrain": "grass",
 		"alignment" : "good",
-		"boat" : "boatCastle",
 		"town" :
 		{
-			"musicTheme" : "music/Abode/theme",
+			"musicTheme" : ["music/Abode/theme"],
 
 			"townBackground": "Abode/town-screen/background",
 			"guildWindow": "Abode/town-screen/mage-guild",
 			"hallBackground": "Abode/THBACK/Forest6.bmp",
 			"hallSlots":
 			[
-				[ [ "building10", "building11", "building12", "capitol" ], [ "fort", "citadel", "castle" ], [ "building5" ], [ "building16" ] ],
-				[ [ "building14", "building15" ], [ "building0", "building1", "building2", "building3", "building4" ], [ "building6" ] ],
-				[ [ "building21" ], [ "building17" ], [ "building18", "building19" ] ],
-				[ [ "building30", "building37" ], [ "building31", "building38" ], [ "building32", "building39", "building46" ] ],
-				[ [ "building33", "building40" ], [ "building34", "building41" ], [ "building35", "building42", "building49" ] ]
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "special2" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ] ],
+				[ [ "dwellingLvl4", "dwellingUpLvl4" ], [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ] ]
 			],
 			"creatures" :
 			[
@@ -38,9 +38,8 @@
 			],
 			"horde" : [ 0 , -1 ],
 			"mageGuild" : 5,
-			"moatAbility" : "castleMoat",
+			"moatAbility": "abodeMoat",
 			"primaryResource" : "crystal",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "Abode/town_hall_2nd_upgrade.def",
 			"icons" :
 			{

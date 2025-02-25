@@ -23,6 +23,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -35,10 +45,11 @@
 			{
 				"level" : "basic",
 				"skill" : "sorcery"
-			}
+			},
 		],
 		
-		"specialty" : {
+		"specialty": //sorcery bonus
+		 {
 			"bonuses" : {
 				"sorcery" : {
 					"targetSourceType" : "SECONDARY_SKILL",

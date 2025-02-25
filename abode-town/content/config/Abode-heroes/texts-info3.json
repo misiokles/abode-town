@@ -3,13 +3,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Sevestra",
-			"biography" : "Unknown" ,
+			"name" : "塞维斯特拉",
+			"biography" : "人们对塞维斯特拉知之甚少。" ,
 			"specialty" :
 			{
-				"description" : "Bonus of Eagle Eye.",
-				"tooltip" : "",
-				"name" : "Eagle Eye"
+				"description" : "在鹰眼术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：鹰眼术",
+				"name" : "鹰眼术"
 			}
 		}
 	},
@@ -18,13 +18,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Desini",
-			"biography" : "Desini was a granddaughter of a known merchantman, who used to make long distance trips to support various countries - very often in a state of war.It was a dangerous operation however well paid in such uncertain times.Desinis parents died of disease plague, so she stayed with his grandfather aboard his ship.She was 8 years old,when an unfortunate government pirate attack suprised them.The ship has been sunk.She was small so she managed to survive the masacre unseen.She landed on an unhabited island of the near archipelago.While trying to get to the high spot of the island she fell to an unusual nest with huge, red glowing egg.Before she had time to get amazed,she heard a high pitched sound.She looked back and saw an enormous fire bird that looked at her with interest.To her suprise the bird didnt do anything to her.She was allowed to come and go whenever she wanted.After some time the egg hatched.Months have passed,and having no people around, Desini have become attached to the unusual,very inteligent birds and formed a friendship.After 2 years or so,when Desini gave up thought of any person coming here,unsuspectedly a beautiful ship has arrived at the island.It happened to be a sorceress that came to check on natural phoenix habitat of this archipelago.The meetimg was unexpected for both.Desini joined the sorceress so she could travel aboard her ship, which she loved the most and at the same time watch over the birds she found so marvelous       ",
+			"name" : "德西妮",
+			"biography" : "德西妮的祖父是一位知名商人，他曾经长途跋涉支援各国 - 它们之间经常处于战争状态。这是一项危险的行动，但在如此不确定的时期报酬丰厚。德西妮的父母死于瘟疫，所以她和祖父一起住在船上。在她8岁时，不幸遇到一次由某国政府暗中主导的海盗袭击，他们栖身的这艘船被击沉。她很小，所以她设法躲藏起来，在斩草除根的屠杀中幸存。她漂泊到附近群岛中一个无人居住的岛屿上。当她到达岛上的高处时，她掉进了一个不寻常的巢穴，里面有巨大的红色发光的蛋。她还没来得及惊讶，就听到了一个尖锐的声音。她回头一看，看到了一只巨大的火鸟也在饶有兴趣地看着她。令她惊讶的是，这只鸟并没有对她做任何事情。她可以随时进出这个巢穴。过了一段时间，蛋一个接一个孵化了。几个月过去了，周围还是没有人的踪迹，德西妮和这些很聪明的鸟结下了友谊。又过了2年左右，当德西妮放弃了有人会来这里的期望时，一艘华丽的船意外地来到了岛上。德西妮加入了女巫的群体，这样她就可以继续乘坐她最喜欢的船旅行，同时进一步观察她在各地发现的奇妙鸟类。",
 			"specialty" :
 			{
-				"description" : "phoenix speed & morale bonus",
-				"tooltip" : "",
-				"name" : "Phoenix Friend"
+				"description" : "达到7级以后提高凤凰、升级凤凰或高级凤凰的攻击力与防御力，并使它们的士气+3。",
+				"tooltip" : "生物强化：凤凰",
+				"name" : "凤凰"
 			}
 		}
 	},
@@ -33,13 +33,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Jessika",
-			"biography" : "Unknown.",
+			"name" : "杰西卡",
+			"biography" : "人们对杰西卡知之甚少。",
 			"specialty" :
 			{
-				"description" : "Bonus of Armorer",
-				"tooltip" : "",
-				"name" : "Armorer"
+				"description" : "在防御术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：防御术",
+				"name" : "防御术"
 			}
 		}
 	},
@@ -48,13 +48,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Bridonna",
-			"biography" : "Unknown",
+			"name" : "布里多娜",
+			"biography" : "人们对布里多娜知之甚少。",
 			"specialty" :
 			{
-				"description" : "Bonus of Pathfinding",
-				"tooltip" : "",
-				"name" : "Pathfinding"
+				"description" : "在寻路术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：寻路术",
+				"name" : "寻路术"
 			}
 		}
 	},
@@ -63,13 +63,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Qara",
-			"biography" : "Unknown",
+			"name" : "卡拉",
+			"biography" : "人们对卡拉知之甚少。",
 			"specialty" :
 			{
-				"description" : "+1 Gem per day",
-				"tooltip" : "",
-				"name" : "+1 Gem"
+				"description" : "为王国每天额外提供1宝石。",
+				"tooltip" : "每天+1宝石",
+				"name" : "+1宝石"
 			}
 		}
 	},
@@ -78,13 +78,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Chani",
-			"biography" : "Unknown",
+			"name" : "珊妮",
+			"biography" : "人们对珊妮知之甚少。",
 			"specialty" :
 			{
-				"description" : "Keeps positive/neutral morale with any creature alignment",
-				"tooltip" : "",
-				"name" : "Peace Keeper"
+				"description" : "允许所带领的正义和中立兵种在混合部队时不受士气惩罚。",
+				"tooltip" : "特殊奖励：和平守护者",
+				"name" : "和平守护者"
 			}
 		}
 	},
@@ -93,13 +93,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Sunni",
-			"biography" : "Unknown",
+			"name" : "苏妮",
+			"biography" : "人们对苏妮知之甚少。",
 			"specialty" :
 			{
-				"description" : "+3 tiles of sight radius",
-				"tooltip" : "",
-				"name" : "Scouting"
+				"description" : "英雄在地图上的视野半径+3。",
+				"tooltip" : "技能加成：侦察术",
+				"name" : "侦察术"
 			}
 		}
 	},
@@ -109,13 +109,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Kastore",
-			"biography" : "Unknown",
+			"name" : "卡斯托蕾",
+			"biography" : "人们对卡斯托蕾知之甚少。",
 			"specialty" :
 			{
-				"description" : "Bonus of Chain Lightning",
-				"tooltip" : "",
-				"name" : "Chain Lightning"
+				"description" : "使用连锁闪电魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：连锁闪电",
+				"name" : "连锁闪电"
 			}
 		}
 	},
@@ -124,13 +124,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Yviene",
-			"biography" : "Unknown", 
+			"name" : "伊维妮",
+			"biography" : "人们对伊维妮知之甚少。", 
 			"specialty" :
 			{
-				"description" : "20% Wind damage bonus",
-				"tooltip" : "",
-				"name" : "Wind Magic"
+				"description" : "施放气系攻击性魔法的杀伤力增加20%。",
+				"tooltip" : "魔法增强：气系魔法",
+				"name" : "气系魔法"
 			}
 		}
 	},
@@ -139,13 +139,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Minore",
-			"biography" : "Unknown",
+			"name" : "米诺儿",
+			"biography" : "人们对米诺儿知之甚少。",
 			"specialty" :
 			{
-				"description" : "Berserk & Hypnotize Talent",
-				"tooltip" : "",
-				"name" : "Mind Influence"
+				"description" : "使用丧心病狂和蛊惑人心魔法时效果大增。",
+				"tooltip" : "魔法增强：精神控制",
+				"name" : "精神控制"
 			}
 		}
 	},
@@ -154,14 +154,14 @@
 	{
 		"texts" :
 		{
-			"name" : "Kilyne",
-			"biography" : "Kilyne has always been a curious mind.By studying the moon,its magnetic power and making various ore experiments,she soon realised how beneficial results it can give.Long years of energy manipulation have helped her to multiply natural magnetic fields.Using it for her own protection was a natural thing to do...  ",
+			"name" : "克里妮",
+			"biography" : "克里妮一直有着一个好奇的头脑。通过研究月球的磁力，用各种矿石做实验，她很快意识到这些力量可以带来多么有益的帮助。多年的能量操纵研究让她掌握了利用自然磁场的方法，很自然的，她使用这些力量来保护自己。",
 
 			"specialty" :
 			{
-				"description" : "Ability to use Magnetic Force Field",
-				"tooltip" : "",
-				"name" : "Moon Protection"
+				"description" : "可以施放加强的大力神盾魔法。",
+				"tooltip" : "魔法增强：大力神盾",
+				"name" : "月之守护"
 			}
 		}
 	},
@@ -170,13 +170,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Errinaya",
-			"biography" : "Unknown.",
+			"name" : "伊琳娜娅",
+			"biography" : "人们对伊琳娜娅知之甚少。",
 			"specialty" :
 			{
-				"description" : "Fire Shield 10% damage rate for all allied creatures ",
-				"tooltip" : "",
-				"name" : "Fire Shield"
+				"description" : "所带领的所有生物获得烈火神盾，在肉搏战中反弹10%的近战伤害。",
+				"tooltip" : "特殊奖励：烈火神盾",
+				"name" : "烈火神盾"
 			}
 		}
 	},
@@ -185,13 +185,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Leane",
-			"biography" : "Unknown",
+			"name" : "林妮",
+			"biography" : "人们对林妮知之甚少。",
 			"specialty" :
 			{
-				"description" : "15% Bonus to Sorcery skill per level",
-				"tooltip" : "",
-				"name" : "Sorcery"
+				"description" : "在魔力技能上每级得到5%的奖励。",
+				"tooltip" : "技能加成：魔力",
+				"name" : "魔力"
 			}
 		}
 	},
@@ -200,13 +200,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Calene",
-			"biography" : "Unknown",
+			"name" : "卡琳妮",
+			"biography" : "人们对卡琳妮知之甚少。",
 			"specialty" :
 			{
-				"description" : "Bonus of Intelligence",
-				"tooltip" : "",
-				"name" : "Intelligence"
+				"description" : "在智力技能上每级得到5%的奖励。",
+				"tooltip" : "技能加成：智力",
+				"name" : "智力"
 			}
 		}
 	},
@@ -215,13 +215,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Karen",
-			"biography" : "Unknown",
+			"name" : "凯伦",
+			"biography" : "人们对凯伦知之甚少。",
 			"specialty" :
 			{
-				"description" : "+350 Gold per day",
-				"tooltip" : "",
-				"name" : "+350 Gold"
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "每天+350个金币",
+				"name" : "+350个金币"
 			}
 		}
 	},
@@ -230,13 +230,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Resurrecta",
-			"biography" : "Unknown",
+			"name" : "瑞苏蕾塔",
+			"biography" : "人们对瑞苏蕾塔知之甚少。",
 			"specialty" :
 			{
-				"description" : "Power of Resurrection",
-				"tooltip" : "",
-				"name" : "Resurrection"
+				"description" : "使用转世重生魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：转世重生",
+				"name" : "转世重生"
 
 	
 			}
@@ -247,13 +247,13 @@
 	{
 		"texts" :
 		{
-			"name" : "Sevestra",
-			"biography" : "Unknown",
+			"name" : "塞维斯特拉",
+			"biography" : "人们对塞维斯特拉知之甚少。",
 			"specialty" :
 			{
-				"description" : "Fire Magic damage 30% bonus",
-				"tooltip" : "",
-				"name" : "Fire Magic"
+				"description" : "施放火系攻击性魔法的杀伤力增加30%。",
+				"tooltip" : "魔法增强：火系魔法",
+				"name" : "火系魔法"
 
 	
 			}

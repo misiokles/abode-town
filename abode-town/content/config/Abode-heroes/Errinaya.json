@@ -2,6 +2,7 @@
 	"abode122errinaya" : 
 	{
 		"class" : "abodebard",
+		"female" : true,
 
 		"images" :
 		{
@@ -22,6 +23,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "abodePixieOfAbode",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 
@@ -37,20 +48,15 @@
 			}
 		],
 		
-		"specialty": {
-			"bonuses": {
-				"fireShield" : {
+		"specialty": //mysticism
+		{
+			"bonuses":
+			{
+				"fire_shield": {
 					"type": "FIRE_SHIELD",
-					"val": 10,
-					"limiters":
-					[
-						{
-							"type": "CREATURE_TYPE_LIMITER",
-							"parameters" : ["abodePixieOfAbode", true]
-						}
-					]
+					"val": 10
 				}
-			}
+			}	
 		}
 	}
 }

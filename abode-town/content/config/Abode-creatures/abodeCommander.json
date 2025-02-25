@@ -2,21 +2,28 @@
 	"abodeCommander":
 	{
 		
-		"faction" : "abode",
+		"faction" : "neutral",
 		"special": true,
-		"aiValue" : 750,
-		"attack" : 12,
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"aiValue" : 1000,
+		"attack" : 5,
 		"cost" :
 		{
-			"gold" : 450
+			"gold" : 140
 		},
 		"damage" :
 		{
-			"max" : 12,
+			"max" : 10,
 			"min" : 10
 		},
-		"defense" : 10,
-		"fightValue" : 750,
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"defense" : 5,
+		"fightValue" : 1000,
 		"graphics" :
 		{	
 			"animation" : "Abode-creatures/Def/Commander/Commander.def",
@@ -48,8 +55,8 @@
 
 
 		
-		"hitPoints" : 30,
-              	"level" : 4,
+		"hitPoints" : 50,
+              	"level" : 0,
 		"shots" : 24,
 		
 		"sound" :
@@ -61,14 +68,40 @@
 			"wince" : "Abode-creatures/Sprite/SPRTWNCE.wav",
                      	"shoot" : "Abode-creatures/Enchanter/ENCHSHOT.wav"
 		},
-		"speed" : 7,
+		"speed" : 5,
 		"abilities" :
 		{
 		"ability1":	{
 				"type" : "SHOOTER"
 			},
 		"ability2":	{	"type" : "NO_MELEE_PENALTY"
-			}
+			},
+		"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",
+				"val" : 3
+                  }
                      
 
 		}}

@@ -23,6 +23,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -38,18 +48,18 @@
 			}
 		],
 		
-		"specialty": {
-			"bonuses": {
-				"firePremy" :
-					{
-						"type" : "SPELL_DAMAGE",
-						"subtype" : "spellSchool.fire",
-						"val" : 30,
-						"valueType" : "BASE_NUMBER"
-					}
-
+		"specialty": //fire magic
+		{
+			"bonuses":
+			{
+				"fire magic": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "fire",
+					"val": 30
 				}
+
 			}
 		}
 	}
+}
 

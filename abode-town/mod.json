@@ -1,17 +1,18 @@
 {
 	"name" : "Abode town",
-	"version" : "1.27",
+	"version" : "1.26",
 	"author" : "New World Computing, acidchalk, zeryss. Fixes: Macron1, avatar",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=39178",
 	"modType" : "Town",
 	"description" : "New Heroes 2 Sorceress Town. Special thanks for Macron1 for help with 2nd level upgrades and horde building coding. Have fun with the mod.",
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.6.0"
 	},
 	"changelog" :
 	{
-		"1.27"  : [ "Update to vcmi-1.5 format" ]
+		"1.27"  : [ "Update to vcmi-1.5 format" ],
+		"1.28"  : [ "Update to vcmi-1.6 format" ]
 	},	
 
 	"factions" :

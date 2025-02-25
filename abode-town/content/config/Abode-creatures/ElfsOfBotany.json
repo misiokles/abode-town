@@ -3,8 +3,8 @@
 	{
 		"advMapAmount" :
 		{
-			"max" : 30,
-			"min" : 20
+			"max" : 20,
+			"min" : 12
 		},
 		"faction" : "abode",
 		"aiValue" : 400,
@@ -89,8 +89,82 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison", 
 				"val" : 10,
-				"addInfo" : [1, 1]
+				"addInfo" : 1001
 			}
-		}
+		},
+    "stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.precision", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.orcChieftain" 
+				},
+				"values" : [ 10, 20, 30, 40, 50, 50, 50, 50, 50, 50 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 3 ]
+			}
+		]
 	}
 }

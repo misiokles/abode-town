@@ -18,6 +18,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 20,
 				"min" : 15
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -29,12 +39,20 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "pathfinding"
 			}
 		],
 		
 		"specialty" : {
-			"creature" : "abodePixieOfAbode"
+			"bonuses" : {
+				"pathfinding" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "ROUGH_TERRAIN_DISCOUNT",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
 		}
 	}
 }

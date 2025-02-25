@@ -6,9 +6,9 @@
 			"siege" :
 			{
 				"shooter" : "abodeElfOfAbode",
-				"towerIconSmall" : "Abode/icons/arrowtowersmall",
-				"towerIconLarge" : "Abode/icons/arrowtowerslarge",
 				"imagePrefix" : "Abode/siege/sgel",
+				"towerIconSmall" : "Abode/icons/towerSmall",
+				"towerIconLarge" : "Abode/icons/towerLarge",
 //				"shooterHeight" : 225,
 				"gate" :
 				{

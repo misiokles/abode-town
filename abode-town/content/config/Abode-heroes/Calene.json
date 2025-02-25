@@ -24,6 +24,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -39,7 +49,8 @@
 			}
 		],
 		
-		"specialty" : {
+		"specialty": //intelligence bonus
+		{
 			"bonuses" : {
 				"intelligence" : {
 					"targetSourceType" : "SECONDARY_SKILL",

@@ -18,6 +18,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -32,34 +42,47 @@
 				"skill" : "navigation"
 			}
 		],
-		"specialty" : {
-			"base" : {
-				"limiters" : [
-					{
-						"parameters" : [ "abodeFireBirdOfAbode", true ],
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
-			},
-			"bonuses" : {
-				"attack" : {
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"val" : 2
-				},
-				"defence" : {
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"val" : 3
-				},
-				"speed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1
-				},	
-				"MORALE" : {
+		
+		"specialty": //Phoenix Friend
+		{
+			"creature": "abodeFireBirdOfAbode",
+			"bonuses":
+			{
+				"morale": {
 					"type" : "MORALE",
+					"val" : 3,
 					"valueType" : "INDEPENDENT_MAX",
-					"val" : 3
+					"limiters":
+					[
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters" : ["abodeFireBirdOfAbode", true]
+						}
+					]
+				},
+				"morale2": {
+					"type" : "MORALE",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"limiters":
+					[
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters" : ["abodePhoenixOfAbode", true]
+						}
+					]
+				},
+				"morale3": {
+					"type" : "MORALE",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"limiters":
+					[
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters" : ["abodeSacredPhoenix", true]
+						}
+					]
 				}
 			}
 		}

@@ -18,6 +18,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -33,12 +43,15 @@
 			}
 		],
 		
-		"specialty": {
-			"bonuses": {
-				"nonevil" : {
+		"specialty": //Peace Keeper
+		{
+			"bonuses":
+			{
+				"nonevil_alignment_mix" : {
 					"type": "NONEVIL_ALIGNMENT_MIX" 
 				}
 			}
 		}
+		
 	}
 }

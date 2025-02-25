@@ -9,8 +9,8 @@
 			
 			"specialtySmall" : "Abode-heroes/kastore/spec-small.png",
 			"specialtyLarge" : "Abode-heroes/kastore/spec-large.png",
-			"large" : "Abode-heroes/Guardian/29.pcx",
-			"small" : "Abode-heroes/Guardian/29s.pcx"
+			"large" : "Abode-heroes/Guardian/18.pcx",
+			"small" : "Abode-heroes/Guardian/18s.pcx"
 		},
 
 		"army" :
@@ -19,6 +19,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 20,
 				"min" : 15
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
@@ -34,8 +44,20 @@
 			}
 		],
 		
+		"spellbook": 
+		[
+			"chainLightning"
+		],
+		
 		"specialty" : {
-			"creature" : "abodePixieOfAbode"
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
 		}
 	}
 }

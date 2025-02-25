@@ -1,187 +1,191 @@
 {
 	"abode" :
 	{
-		"name" : "Abode",
+		"name" : "家园",
 		"town" :
 		{
 			"names" :
 			[
-				"Xanadu",
-				"Hangval",
-				"Jalina",
-				"Firios",
-				"Windhaven",
-				"Bathiere",
-				"Spring Falls",
-				"Gem Moor",
-				"Willow",
-				"New Forest",
-				"New Elfwind",
-				"Wenlan",
-				"Vintyl",
-				"Sylina",
-				"Hallin",
-				"Rael"
+				"桃源谷",
+				"汉瓦谷",
+				"雅琳谷",
+				"菲瑞谷",
+				"风港谷",
+				"沐雨谷",
+				"春瀑谷",
+				"宝泽谷",
+				"拂柳谷",
+				"新森谷",
+				"灵风谷",
+				"文兰谷",
+				"温提谷",
+				"西林谷",
+				"赫林谷",
+				"莱伊谷"
 			],
 			"buildings" :
 			{
-"building0":				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
+"mageGuild1":				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "1级魔法行会"
 				},
-"building1":				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
+"mageGuild2":				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "2级魔法行会"
 				},
-"building2":				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
+"mageGuild3":				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "3级魔法行会"
 				},
-"building3":				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
+"mageGuild4":				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "4级魔法行会"
 				},
-"building4":				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
+"mageGuild5":				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "5级魔法行会"
 				},
-"building5":				{
-					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city."
+"tavern":				{
+					"name" : "酒馆",
+					"description" : "酒馆可提高驻军的士气。"
 				},
-"building6":				{
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships."
+"shipyard":				{
+					"name" : "船坞",
+					"description" : "船坞允许你购买船只。"
 				},
 "fort":				{
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls."
+					"name" : "堡垒",
+					"description" : "堡垒可为你的城镇提供城墙。"
 				},
 "citadel":				{
-					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+					"name" : "大本营",
+					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。"
 				},
 "castle":				{
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+					"name" : "城堡",
+					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。"
 				},
-"building10":				{
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+"villageHall":				{
+					"name" : "议事堂",
+					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。"
 				},
-"building11":				{
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+"townHall":				{
+					"name" : "内政厅",
+					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。"
 				},
-"building12":				{
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+"cityHall":				{
+					"name" : "议会",
+					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。"
 				},
 "capitol":				{
-					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day."
+					"name" : "国会",
+					"description" : "国会每天向你提供4000个金币。"
 				},
-"building14":				{
-					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+"marketplace":				{
+					"name" : "市场",
+					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。"
 				},
-"building15":				{
-					"description" : "The Resourse Pile provides you with an additional +1 crystal each day.",
-					"name" : "Resourse Pile"
+"resourceSilo":				{
+					"description" : "物资仓库每天为你额外提供1水晶。",
+					"name" : "物资仓库"
 				},
-"building16":				{
-					"description" : "The Blacksmith provides your armies with Ballista.",
-					"name" : "Blacksmith"
+"blacksmith":				{
+					"description" : "铁匠铺可向你的军队提供弩车。",
+					"name" : "铁匠铺"
 				},
-"building18":				{
-					"description" : "Dwelling increases weekly production of Pixies by 10 per week.",
-					"name" : "Dwelling"
+"horde1":				{
+					"description" : "水井使妖精和高级妖精的周产量+10。",
+					"name" : "水井"
 				},
-"building19":				{
-					"description" : "Dwelling increases weekly production of Sprites by 10 per week.",
-					"name" : "Dwelling"
+"horde1Upgr":				{
+					"description" : "水井使妖精和高级妖精的周产量+10。",
+					"name" : "水井"
 
 				},
 
-"building17":				{
-					"description" : "Statue increases luck of any visiting hero for next battle by +1.(not working yet)",
-					"name" : "Statue"
+"special2":				{
+					"description" : "在攻城战中，雕像使驻守英雄的幸运值+2。",
+					"name" : "雕像"
 				},
-"building21":				{
-					"description" : "The Crystal Garden increases the Power skill of any visiting hero by +1.(not working yet)",
-					"name" : "Crystal Garden"
+"building20":				{
+					"description" : "隐藏建筑，id：20。",
+					"name" : "隐藏建筑"
 				},
-"building26":				{
-					"description" : "The Rainbow increases weekly creature generation by 50 percent, adds 5000 gold per day.",
-					"name" : "Rainbow"
+"special1":				{
+					"description" : "水晶花园使每个来访英雄的力量+1。",
+					"name" : "水晶花园"
 				},
-"building30":				{
-					"description" : "Treehouse allows to recruit Pixies.",
-					"name" : "Treehouse"
+"grail":				{
+					"description" : "彩虹使每周的生物产量提高50%，每天为你的王国额外提供5000个金币。",
+					"name" : "彩虹"
 				},
-"building31":				{
-					"description" : "Cottage allows to recruit Dwarves.",
-					"name" : "Cottage"
+"dwellingLvl1":				{
+					"description" : "树屋允许你招募妖精。",
+					"name" : "树屋"
 				},
-"building32":				{
-					"description" : "Archery Range allows to recruit Elves of Abode.",
-					"name" : "Archery Range"
+"dwellingLvl2":				{
+					"description" : "农舍允许你招募矮人。",
+					"name" : "农舍"
 				},
-"building33":				{
-					"description" : "Stonehenge allows to recruit Druids.",
-					"name" : "Stonehenge"
+"dwellingLvl3":				{
+					"description" : "箭术靶场允许你招募小精灵。",
+					"name" : "箭术靶场"
 				},
-"building34":				{
-					"description" : "Fenced Meadow allows to recruit Unicorns.",
-					"name" : "Fenced Meadow"
+"dwellingLvl4":				{
+					"description" : "石柱群允许你招募德鲁伊僧侣。",
+					"name" : "石柱群"
 				},
-"building35":				{
-					"description" : "Red Tower allows to recruit Fire Birds.",
-					"name" : "Red Tower"
+"dwellingLvl5":				{
+					"description" : "篱围草地允许你招募独角兽。",
+					"name" : "篱围草地"
 				},
-"building36":				{
-					"description" : "Additional allows to recruit Additional Units.",
-					"name" : "NOT AVAILABLE"
+"dwellingLvl6":				{
+					"description" : "火焰塔允许你招募凤凰。",
+					"name" : "火焰塔"
 				},
-"building37":				{
-					"description" : "Upg. Treehouse allows to recruit Sprites.",
-					"name" : "Upg. Treehouse"
+"dwellingLvl7":				{
+					"description" : "额外建筑允许招募额外单位。",
+					"name" : "无效建筑"
 				},
-"building38":				{
-					"description" : "Upg. Cottage allows to recruit Battle Dwarves.",
-					"name" : "Upg. Cottage"
+"dwellingUpLvl1":				{
+					"description" : "升级树屋允许你招募高级妖精。",
+					"name" : "升级树屋"
 				},
-"building39":				{
-					"description" : "Upg. Archery Range allows to recruit Elves of Botany.",
-					"name" : "Upg. Archery Range"
+"dwellingUpLvl2":				{
+					"description" : "升级农舍允许你招募高级矮人。",
+					"name" : "升级农舍"
 				},
-"building40":				{
-					"description" : "Upg. Stonehenge Post allows to recruit Great Druids.",
-					"name" : "Upg. Stonehenge"
+"dwellingUpLvl3":				{
+					"description" : "升级箭术靶场允许你招募升级小精灵。",
+					"name" : "升级箭术靶场"
 				},
-"building41":				{
-					"description" : "Upg. Fenced Meadow allows to recruit War Unicorns.",
-					"name" : "Upg. Fenced Meadow"
+"dwellingUpLvl4":				{
+					"description" : "升级石柱群允许你招募高级德鲁伊僧侣。",
+					"name" : "升级石柱群"
 				},
-"building42":				{
-					"description" : "Upg. Red Tower allows to recruit Phoenixes.",
-					"name" : "Upg. Red Tower"
+"dwellingUpLvl5":				{
+					"description" : "升级篱围草地允许你招募高级独角兽。",
+					"name" : "升级篱围草地"
 				},
-"building43":				{
-					"description" : "Adv. Red Tower allows to recruit Sacred Phoenixes.",
-					"name" : "Adv. Red Tower"
+"dwellingUpLvl6":				{
+					"description" : "升级火焰塔允许你招募升级凤凰。",
+					"name" : "升级火焰塔"
+				},
+"dwellingUpLvl7":				{
+					"description" : "高级火焰塔允许你招募高级凤凰。",
+					"name" : "高级火焰塔"
 				},
 //"building23":				{	
 //					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 //					"name" : "Mage Guild Level 1"
 //				},
-"building46":				{	
-					"description" : "Adv. Archery Range allows to recruit Elves of Old.",
-					"name" : "Adv. Archery Range"
+"dwellingUp2Lvl3":				{	
+					"description" : "高级箭术靶场允许你招募高级小精灵。",
+					"name" : "高级箭术靶场"
 				},
-"building49":				{
-					"description" : "Adv. Red Tower allows to recruit Sacred Phoenixes.",
-					"name" : "Adv. Red Tower"
+"dwellingUp2Lvl6":				{
+					"description" : "高级火焰塔允许你招募高级凤凰。",
+					"name" : "高级火焰塔"
 				}
 			}
 		}

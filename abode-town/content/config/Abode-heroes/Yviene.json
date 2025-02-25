@@ -26,41 +26,41 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 
 		"skills" : 
 		[
 			{
-				"level" : "advanced",
+				"level" : "basic",
 				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
 			}
 		],
 		
-		"specialty": {
-			"bonuses": {
-				"lightningBolt" :
-					{
-						"type": "SPECIFIC_SPELL_DAMAGE", 
-						"subtype": "spell.lightningBolt",
-						"val": 20
-						
-					},
-				"chainLightning" :
-					{
-						"type": "SPECIFIC_SPELL_DAMAGE",
-						"subtype": "spell.chainLightning",
-						"addInfo": 20
-						
-					},
-				"magicArrow" :
-					{
-						"type": "SPECIFIC_SPELL_DAMAGE",
-						"subtype": "spell.magicArrow",
-						"val": 20
-						
-					}	
+		"specialty": //Power of the wind
+		{
+			"bonuses":
+			{
+				"fire magic": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "air",
+					"val": 20
 				}
+			}
 		}
 	}
 }

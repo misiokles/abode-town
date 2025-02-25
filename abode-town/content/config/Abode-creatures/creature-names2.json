@@ -3,16 +3,16 @@
 	{
 		"name" :
 		{
-			"plural" : "Pixies",
-			"singular" : "Pixie"
+			"plural" : "妖精",
+			"singular" : "妖精"
 		}
 	},
 	"abodeSpriteOfAbode" :
 	{
 		"name" :
 		{
-			"plural" : "Sprites",
-			"singular" : "Sprite"
+			"plural" : "高级妖精",
+			"singular" : "高级妖精"
 		}
 	},
 
@@ -20,16 +20,16 @@
 	{
 		"name" :
 		{
-			"plural" : "Dwarves",
-			"singular" : "Dwarf"
+			"plural" : "矮人",
+			"singular" : "矮人"
 		}
 	},
 	"abodeBattleDwarfOfAbode" :
 	{
 		"name" :
 		{
-			"plural" : "Battle Dwarves",
-			"singular" : "Battle Dwarf"
+			"plural" : "高级矮人",
+			"singular" : "高级矮人"
 		}
 	},
 
@@ -37,32 +37,32 @@
 	{
 		"name" :
 		{
-			"plural" : "Elves of Abode",
-			"singular" : "Elf of Abode"
+			"plural" : "小精灵",
+			"singular" : "小精灵"
 		}
 	},
 	"abodeElfOfBotany" :
 	{
 		"name" :
 		{
-			"plural" : "Elves of Botany",
-			"singular" : "Elf of Botany"
+			"plural" : "升级小精灵",
+			"singular" : "升级小精灵"
 		}
 	},
 	"abodeDruid" :
 	{
 		"name" :
 		{
-			"plural" : "Druids",
-			"singular" : "Druid"
+			"plural" : "德鲁伊僧侣",
+			"singular" : "德鲁伊僧侣"
 		}
 	},
 	"abodeGreatDruid" :
 	{
 		"name" :
 		{
-			"plural" : "Great Druids",
-			"singular" : "Great Druid"
+			"plural" : "高级德鲁伊僧侣",
+			"singular" : "高级德鲁伊僧侣"
 		}
 	},
 
@@ -70,16 +70,16 @@
 	{
 		"name" :
 		{
-			"plural" : "Unicorns",
-			"singular" : "Unicorn"
+			"plural" : "独角兽",
+			"singular" : "独角兽"
 		}
 	},
 	"abodeWarUnicornOfAbode" :
 	{
 		"name" :
 		{
-			"plural" : "War Unicorns",
-			"singular" : "War Unicorn"
+			"plural" : "高级独角兽",
+			"singular" : "高级独角兽"
 		}
 	},
 
@@ -87,16 +87,16 @@
 	{
 		"name" :
 		{
-			"plural" : "Fire Birds",
-			"singular" : "Fire Bird"
+			"plural" : "凤凰",
+			"singular" : "凤凰"
 		}
 	},
 	"abodePhoenixOfAbode" :
 	{
 		"name" :
 		{
-			"plural" : "Phoenixes",
-			"singular" : "Phoenix"
+			"plural" : "升级凤凰",
+			"singular" : "升级凤凰"
 		}
 	},
 
@@ -104,16 +104,24 @@
 	{
 		"name" :
 		{
-			"plural" : "Sacred Phoenixes",
-			"singular" : "Sacred Phoenix"
+			"plural" : "高级凤凰",
+			"singular" : "高级凤凰"
 		}
 	},
 	"abodeElfOfOld" :
 	{
 		"name" :
 		{
-			"plural" : "Elves of Old",
-			"singular" : "Elf of Old"
+			"plural" : "高级小精灵",
+			"singular" : "高级小精灵"
+		}
+	},
+	"abodeCommander" :
+	{
+		"name" :
+		{
+			"plural" : "旅法师",
+			"singular" : "旅法师"
 		}
 	}
 }

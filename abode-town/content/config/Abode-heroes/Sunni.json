@@ -20,14 +20,14 @@
 				"min" : 20
 			},
 			{
-				"creature" : "abodePixieOfAbode",
-				"max" : 10,
-				"min" : 8
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
 			},
 			{
-				"creature" : "abodePixieOfAbode",
-				"max" : 6,
-				"min" : 4
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 		"skills" :
@@ -38,13 +38,14 @@
 			}
 		],
 		
-		"specialty": {
-			"bonuses": {
-				"scouting" :
-					{
-						"type": "SIGHT_RADIUS",
-						"val": 3
-					}
+		"specialty": //+3 tiles sight radius
+		{
+			"bonuses":
+			{
+				"sight_radius'": {
+					"type": "SIGHT_RADIUS",
+					"val": 3
+				}
 			}
 		}
 	}

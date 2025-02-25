@@ -1,0 +1,87 @@
+{
+// "special" heroes for new towns
+//	"core:dracon":
+//	{
+//		"specialty" : {
+//			"base" : {
+//				"addInfo" : "creature.enchanter",
+//				"type" : "SPECIAL_UPGRADE"
+//			},
+//			"bonuses" : {
+//				"abodeDruid2enchanter" : { "subtype" : "creature.abodeDruid" },
+//				"abodeGreatDruid2enchanter" : { "subtype" : "creature.abodeGreatDruid" },
+//			}
+//		},
+//	},
+//	"core:gelu":
+//	{
+//		"specialty" : {
+//			"base" : {
+//				"addInfo" : "creature.sharpshooter",
+//				"type" : "SPECIAL_UPGRADE"
+//			},
+//			"bonuses" : {
+//				"abodeElfOfAbode2sharpshooter" : { "subtype" : "creature.abodeElfOfAbode" },
+//				"abodeElfOfBotany2sharpshooter" : { "subtype" : "creature.abodeElfOfBotany" },
+//				"abodeElfOfOld2sharpshooter" : { "subtype" : "creature.abodeElfOfOld" },
+//			}
+//		},
+//	},
+	"core:ufretin":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "abodeDwarfOfAbode", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	},
+	"core:ivor":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "abodeElfOfAbode", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	},
+	"core:clancy":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "abodeUnicornOfAbode", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+	}
+}

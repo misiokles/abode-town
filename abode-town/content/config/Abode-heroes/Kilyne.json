@@ -23,6 +23,16 @@
 				"creature" : "abodePixieOfAbode",
 				"max" : 30,
 				"min" : 20
+			},
+			{
+				"creature" : "abodeDwarfOfAbode",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "abodeElfOfAbode",
+				"max" : 3,
+				"min" : 2
 			}
 		],
 		"skills" :
@@ -38,12 +48,14 @@
 			
 		],
 		
-		"specialty" : {
-			"bonuses" : {
-				"weakness" : {
-					"addInfo" : 0,
-					"subtype" : "spell.forceField",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+		"specialty": //weakness
+		{
+			"bonuses":
+			{
+				"forceField": {
+					"type": "SPECIAL_PECULIAR_ENCHANT",
+					"subtype": "spell.forceField", //not sue how it will work, anyway
+					"addInfo": 0 //normal, like most of hereos
 				}
 			}
 		}

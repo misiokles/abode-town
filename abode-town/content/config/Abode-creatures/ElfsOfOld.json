@@ -3,7 +3,7 @@
 	{
 		"advMapAmount" :
 		{
-			"max" : 25,
+			"max" : 20,
 			"min" : 10
 		},
 		"faction" : "abode",
@@ -82,14 +82,14 @@
 			},
 		"ability4":	{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.poison", 
+				"subtype" : "spell.age", 
 				"val" : 5
 			},
 		"ability5":	{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison", 
+				"subtype" : "spell.age", 
 				"val" : 5,
-				"addInfo" : [1, 1]
+				"addInfo" : 1001
 			},
                   "ability6":   	{
 				"type" : "ACID_BREATH",
@@ -97,6 +97,58 @@
 				"addInfo" : 2
 			}
 
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FREE_SHOOTING"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			}
+		]
 	}
 }

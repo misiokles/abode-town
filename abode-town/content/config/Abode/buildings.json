@@ -5,7 +5,7 @@
 		{
 			"buildings" :
 			{
-"building0":				{
+"mageGuild1":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -14,7 +14,7 @@
 					},
 					"id" : 0
 				},
-"building1":				{
+"mageGuild2":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -26,9 +26,9 @@
 						"gold" : 1000
 					},
 					"id" : 1,
-					"upgrades" : "building0"
+					"upgrades" : "mageGuild1"
 				},
-"building2":				{
+"mageGuild3":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -40,9 +40,9 @@
 						"gold" : 1000
 					},
 					"id" : 2,
-					"upgrades" : "building1"
+					"upgrades" : "mageGuild2"
 				},
-"building3":				{
+"mageGuild4":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -54,9 +54,9 @@
 						"gold" : 1000
 					},
 					"id" : 3,
-					"upgrades" : "building2"
+					"upgrades" : "mageGuild3"
 				},
-"building4":				{
+"mageGuild5":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -68,9 +68,9 @@
 						"gold" : 1000
 					},
 					"id" : 4,
-					"upgrades" : "building3"
+					"upgrades" : "mageGuild4"
 				},
-"building5":				{
+"tavern":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -78,7 +78,7 @@
 					},
 					"id" : 5
 				},
-"building6":				{
+"shipyard":				{
 					"cost" :
 					{
 						"wood" : 20,
@@ -115,27 +115,27 @@
 					"id" : 9,
 					"upgrades" : "citadel"
 				},
-"building10":				{
+"villageHall":				{
 					"id" : 10,
 					"mode" : "auto"
 				},
-"building11":				{
+"townHall":				{
 					"cost" :
 					{
 						"gold" : 2500
 					},
 					"id" : 11,
-					"requires" : [ "building5" ],
-					"upgrades" : "building10"
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
 				},
-"building12":				{
+"cityHall":				{
 					"cost" :
 					{
 						"gold" : 5000
 					},
-					"requires" : [ "allOf",[ "building0" ],[ "building14" ],[ "building16" ]],
+					"requires" : [ "allOf",[ "mageGuild1" ],[ "marketplace" ],[ "blacksmith" ]],
 					"id" : 12,
-					"upgrades" : "building11"
+					"upgrades" : "townHall"
 				},
 "capitol":				{
 					"cost" :
@@ -144,9 +144,9 @@
 					},
 					"id" : 13,
 					"requires" : [ "castle" ],
-					"upgrades" : "building12"
+					"upgrades" : "cityHall"
 				},
-"building14":				{
+"marketplace":				{
 					"cost" :
 					{
 						"wood" : 5,
@@ -154,63 +154,81 @@
 					},
 					"id" : 14
 				},
-"building15":				{
+"resourceSilo":				{
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"requires" : [ "building14" ],
+					"produce": { "crystal": 1 },
+					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
-"building16":				{
+"blacksmith":				{
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ballista",
 					"id" : 16
 				},
 				
-"building18":				{
+"horde1":				{
 					"cost" : {
 						"gold" : 1000
 					},
 					"id" : 18,
-					"upgrades" : "building30"
+					"upgrades" : "dwellingLvl1"
 				},
-"building19":				{
+"horde1Upgr":				{
 					"cost" : {
 						"gold" : 1000
 					},
 					"id" : 19,
-					"upgrades" : "building37",
-					"requires" : [ "building18" ],
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "horde1" ],
 					"mode" : "auto"
 				},
 "building20":				{
 					"id" : 20
 				},
-"building17":				{
+"special2":				{
 					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "building21" ],
+					"requires" : [ "special1" ],
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2
+						}
+					],
 					"id" : 17
 				},
-"building21":				{
+"special1":				{
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
 					},
-					"requires" : [ "building15" ],
+					"requires" : [ "resourceSilo" ],
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.582",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
 					"id" : 21
 				},
-"building26":				{
+"grail":				{
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"produce": { "gold": 5000 }
 				},
-"building30":				{
+"dwellingLvl1":				{
 // 1 poziom
 					"cost" : {
 						"gold" : 1000,
@@ -219,16 +237,16 @@
 					"requires" : [ "fort" ],
 					"id" : 30
 				},
-"building31":				{
+"dwellingLvl2":				{
 //2 poziom
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"requires" : [ "allOf",[ "building5" ], [ "building30" ]],
+					"requires" : [ "allOf",[ "tavern" ], [ "dwellingLvl1" ]],
 					"id" : 31
 				},
-"building32":				{
+"dwellingLvl3":				{
 //3 poziom
 					"cost" : {
 						"gold" : 1500,
@@ -237,7 +255,7 @@
 					"requires" : [ "fort" ],
 					"id" : 32
 				},
-"building33":				{
+"dwellingLvl4":				{
 //4 poziom
 					"cost" : {
 						"gold" : 3000,
@@ -248,10 +266,10 @@
 						"sulfur" : 2,
 						"crystal" :2
 					},
-					"requires" : [  "allOf",[ "building0" ], [ "building32" ]],
+					"requires" : [  "allOf",[ "mageGuild1" ], [ "dwellingLvl3" ]],
 					"id" : 33
 				},
-"building34":				{
+"dwellingLvl5":				{
 //5 poziom
 					"cost" : {
 						"gold" : 4000,
@@ -259,10 +277,10 @@
 						"ore" : 5,
 						"gems" : 10,
 					},
-					"requires" : [  "allOf",[ "building32" ],[ "building33" ]],
+					"requires" : [  "allOf",[ "dwellingLvl3" ],[ "dwellingLvl4" ]],
 					"id" : 34
 				},
-"building35":				{
+"dwellingLvl6":				{
 //6 poziom
 					"cost" : {
 						"gold" : 10000,
@@ -270,10 +288,10 @@
 						"wood" : 10,
 						"mercury" : 10
 					},
-					"requires" : [  "allOf",[ "building31" ], [ "building34" ]],
+					"requires" : [  "allOf",[ "dwellingLvl2" ], [ "dwellingLvl5" ]],
 					"id" : 35
 				},
-"building36":				{
+"dwellingLvl7":				{
 //7 poziom
 					"cost" : {
 						"gold" : 20000,
@@ -281,10 +299,10 @@
 						"ore" : 10,
 						"crystal" : 10
 					},
-					"requires" : [ "building35" ],
+					"requires" : [ "dwellingLvl6" ],
 					"id" : 36
 				},
-"building37":				{
+"dwellingUpLvl1":				{
 //ul 1 poziom
 					"cost" : {
 						"gold" : 500,
@@ -292,9 +310,9 @@
 						"ore" : 5
 					},
 					"id" : 37,
-					"upgrades" : "building30"
+					"upgrades" : "dwellingLvl1"
 				},
-"building38":				{
+"dwellingUpLvl2":				{
 //ul 2 poziom
 					"cost" : {
 						"gold" : 1000,
@@ -302,9 +320,9 @@
 						"ore" : 5 
 					},
 					"id" : 38,
-					"upgrades" : "building31"
+					"upgrades" : "dwellingLvl2"
 				},
-"building39":				{
+"dwellingUpLvl3":				{
 //ul 3 poziom
 					"cost" : {
 						"gold" : 1500,
@@ -312,9 +330,9 @@
 						"crystal" : 2
 					},
 					"id" : 39,
-					"upgrades" : "building32"
+					"upgrades" : "dwellingLvl3"
 				},
-"building40":				{
+"dwellingUpLvl4":				{
 //ul 4 poziom
 					"cost" : {
 						"gold" : 1500,
@@ -325,10 +343,10 @@
 						"sulfur" : 2
 					},
 					"id" : 40,
-					"requires" : [ "building37" ],
-					"upgrades" : "building33"
+					"requires" : [ "dwellingUpLvl1" ],
+					"upgrades" : "dwellingLvl4"
 				},
-"building41":				{
+"dwellingUpLvl5":				{
 //ul 5 poziom
 					"cost" : {
 						"sulfur" : 5,
@@ -339,9 +357,9 @@
 					},
 					"id" : 41,
 					//"requires" : [ "citadel" ],
-					"upgrades" : "building34"
+					"upgrades" : "dwellingLvl5"
 				},
-"building42":				{
+"dwellingUpLvl6":				{
 //ul 6 poziom
 					"cost" : {
 						"gold" : 15000,
@@ -352,10 +370,10 @@
 						"gems" : 5
 					},
 					"id" : 42,
-					"requires" : [ "building32" ],
-					"upgrades" : "building35"
+					"requires" : [ "dwellingLvl3" ],
+					"upgrades" : "dwellingLvl6"
 				},
-"building43":				{
+"dwellingUpLvl7":				{
 //ul 7 poziom
 					"cost" : {
 						"ore" : 5,
@@ -364,11 +382,11 @@
 						"mercury" : 20
 					},
 					"id" : 43,
-					"requires" : [  "allOf",[ "building35" ], [ "building0" ]],
-					"upgrades" : "building36"
+					"requires" : [  "allOf",[ "dwellingLvl6" ], [ "mageGuild1" ]],
+					"upgrades" : "dwellingLvl7"
 				},
 
-"building46":				{
+"dwellingUp2Lvl3":				{
 //ul2 3 poziom
 					"cost" : {
 						"gold" : 10000,
@@ -378,10 +396,10 @@
 						"sulfur" : 2
 					},
 					"id" : 46,
-					"requires" : [  "allOf", [ "building2"] , [ "building42" ]],
-					"upgrades" : "building39"
+					"requires" : [  "allOf", [ "mageGuild3"] , [ "dwellingUpLvl6" ]],
+					"upgrades" : "dwellingUpLvl3"
 				},
-"building49":				{
+"dwellingUp2Lvl6":				{
 //ul2 6 poziom
 					"cost" : {
 						"gold" : 20000,
@@ -393,8 +411,8 @@
 						"gems" : 5
 					},
 					"id" : 49,
-					"requires" : [ "building2" ],
-					"upgrades" : "building42"
+					"requires" : [ "mageGuild3" ],
+					"upgrades" : "dwellingUpLvl6"
 				}
 				
 			}

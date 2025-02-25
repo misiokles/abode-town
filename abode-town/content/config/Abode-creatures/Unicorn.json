@@ -3,8 +3,8 @@
 	{
 		"advMapAmount" :
 		{
-			"max" : 30,
-			"min" : 16
+			"max" : 12,
+			"min" : 5
 		},
 		"faction" : "abode",
 		"aiValue" : 1806,
@@ -36,9 +36,9 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 3,
+		"growth" : 2,
 		"hitPoints" : 90,
-		"level" : 5,
+		"level" : 6,
 		"upgrades":
 		[
 			"abodeWarUnicornOfAbode"
@@ -60,17 +60,78 @@
 			},
 		"ability2":	{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.blind", 
+				"subtype" : "spell.implosion", 
 				"val" : 5
 			},
 		"ability3":	{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind", 
-				"val" : 100,
-				"addInfo" : [1,1]
+				"val" : 20,
+				"addInfo" : 1001
 			}
 			
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.blind",
+					"addInfo" : 1001 //62 - blind
+				},
+				"values" : [ 0, 0, 5, 5, 10, 10, 15, 15, 15, 20 ]				
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
 
 	}
 }
